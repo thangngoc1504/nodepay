@@ -191,7 +191,7 @@ def remove_proxy_from_list(proxy):
 async def main():
     all_proxies = load_proxies('local_proxies.txt')  
     # Take token input directly from the user
-    token = input("Nodepay token: ").strip()
+    token = "your_token"
     if not token:
         print("Token cannot be empty. Exiting the program.")
         exit()
